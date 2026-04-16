@@ -1,20 +1,52 @@
 {
-  "Bookstore.Domain": [],
+  "Bookstore.Domain": [
+    "Microsoft.EntityFrameworkCore",
+    "Microsoft.EntityFrameworkCore.Abstractions",
+    "Microsoft.EntityFrameworkCore.Analyzers",
+    "Microsoft.EntityFrameworkCore.Relational",
+    "Microsoft.Extensions.Configuration.Json"
+  ],
   "Bookstore.Data": [
     "Npgsql.EntityFrameworkCore.PostgreSQL",
     "AWSSDK.SecretsManager",
     "Microsoft.Build",
     "Microsoft.Extensions.Configuration",
     "Microsoft.Extensions.Configuration.Json",
-    "Microsoft.VisualStudio.Web.CodeGeneration.Design"
+    "Microsoft.VisualStudio.Web.CodeGeneration.Design",
+    "System.Text.Json",
+    "System.IO.Pipelines",
+    "Microsoft.Extensions.Logging",
+    "Microsoft.Extensions.Primitives",
+    "Microsoft.Extensions.DependencyInjection.Abstractions",
+    "Microsoft.Extensions.Logging.Abstractions",
+    "Microsoft.Extensions.Options",
+    "Microsoft.Extensions.DependencyInjection",
+    "System.Text.Encodings.Web"
   ],
   "Bookstore.Web": [
     "AWS.Logger.AspNetCore",
     "AWSSDK.CloudWatchLogs",
-    "Microsoft.VisualStudio.Web.CodeGeneration.Design"
+    "Microsoft.VisualStudio.Web.CodeGeneration.Design",
+    "System.IO.Pipelines",
+    "Microsoft.Extensions.Logging",
+    "Microsoft.Extensions.Primitives",
+    "Microsoft.Extensions.Options",
+    "Microsoft.Extensions.DependencyInjection",
+    "Microsoft.Extensions.Configuration.Json"
   ],
   "Bookstore.Cdk": [
-    "Amazon.Jsii.Analyzers"
+    "Amazon.Jsii.Analyzers",
+    "Microsoft.Extensions.Configuration",
+    "System.Text.Json",
+    "System.IO.Pipelines",
+    "Microsoft.Extensions.Logging",
+    "Microsoft.Extensions.Configuration.Abstractions",
+    "Microsoft.Extensions.Primitives",
+    "Microsoft.Extensions.DependencyInjection.Abstractions",
+    "Microsoft.Extensions.Logging.Abstractions",
+    "Microsoft.Extensions.Options",
+    "Microsoft.Extensions.DependencyInjection",
+    "System.Text.Encodings.Web"
   ],
   "Bookstore.Domain.Tests": [
     "xunit",
